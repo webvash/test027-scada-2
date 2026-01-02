@@ -104,8 +104,8 @@
       <SW.Tags.PlcTag ID="10" CompositionName="Tags">
         <AttributeList>
           <DataTypeName>Bool</DataTypeName>
-          <LogicalAddress>%M2.0</LogicalAddress>
-          <Name>mem2-start-right</Name>
+          <LogicalAddress>%M2.2</LogicalAddress>
+          <Name>mem2-stop</Name>
         </AttributeList>
         <ObjectList>
           <MultilingualText ID="11" CompositionName="Comment">
@@ -123,8 +123,8 @@
       <SW.Tags.PlcTag ID="13" CompositionName="Tags">
         <AttributeList>
           <DataTypeName>Bool</DataTypeName>
-          <LogicalAddress>%M2.1</LogicalAddress>
-          <Name>mem2-start-left</Name>
+          <LogicalAddress>%M2.3</LogicalAddress>
+          <Name>mem-Belt Conveyor (4m) 2 (+)</Name>
         </AttributeList>
         <ObjectList>
           <MultilingualText ID="14" CompositionName="Comment">
@@ -142,8 +142,8 @@
       <SW.Tags.PlcTag ID="16" CompositionName="Tags">
         <AttributeList>
           <DataTypeName>Bool</DataTypeName>
-          <LogicalAddress>%M2.2</LogicalAddress>
-          <Name>mem2-stop</Name>
+          <LogicalAddress>%M2.4</LogicalAddress>
+          <Name>mem-Belt Conveyor (4m) 2 (-)</Name>
         </AttributeList>
         <ObjectList>
           <MultilingualText ID="17" CompositionName="Comment">
@@ -161,51 +161,13 @@
       <SW.Tags.PlcTag ID="19" CompositionName="Tags">
         <AttributeList>
           <DataTypeName>Bool</DataTypeName>
-          <LogicalAddress>%M2.3</LogicalAddress>
-          <Name>mem-Belt Conveyor (4m) 2 (+)</Name>
+          <LogicalAddress>%M2.5</LogicalAddress>
+          <Name>mem-moment</Name>
         </AttributeList>
         <ObjectList>
           <MultilingualText ID="1A" CompositionName="Comment">
             <ObjectList>
               <MultilingualTextItem ID="1B" CompositionName="Items">
-                <AttributeList>
-                  <Culture>en-US</Culture>
-                  <Text />
-                </AttributeList>
-              </MultilingualTextItem>
-            </ObjectList>
-          </MultilingualText>
-        </ObjectList>
-      </SW.Tags.PlcTag>
-      <SW.Tags.PlcTag ID="1C" CompositionName="Tags">
-        <AttributeList>
-          <DataTypeName>Bool</DataTypeName>
-          <LogicalAddress>%M2.4</LogicalAddress>
-          <Name>mem-Belt Conveyor (4m) 2 (-)</Name>
-        </AttributeList>
-        <ObjectList>
-          <MultilingualText ID="1D" CompositionName="Comment">
-            <ObjectList>
-              <MultilingualTextItem ID="1E" CompositionName="Items">
-                <AttributeList>
-                  <Culture>en-US</Culture>
-                  <Text />
-                </AttributeList>
-              </MultilingualTextItem>
-            </ObjectList>
-          </MultilingualText>
-        </ObjectList>
-      </SW.Tags.PlcTag>
-      <SW.Tags.PlcTag ID="1F" CompositionName="Tags">
-        <AttributeList>
-          <DataTypeName>Bool</DataTypeName>
-          <LogicalAddress>%M2.5</LogicalAddress>
-          <Name>mem-moment</Name>
-        </AttributeList>
-        <ObjectList>
-          <MultilingualText ID="20" CompositionName="Comment">
-            <ObjectList>
-              <MultilingualTextItem ID="21" CompositionName="Items">
                 <AttributeList>
                   <Culture>en-US</Culture>
                   <Text />
